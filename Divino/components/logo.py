@@ -26,7 +26,7 @@ def logo() -> rx.Component:
                         'font_family': Font.LOGO.value
                     }
                 ),
-                rx.text('38 Años Camino a la Excelencia en Educación',
+                rx.text('38 Años Camino a la Excelencia en la Educación',
                         size='4',
                         font_family= Font.LOGO.value),
                 align='start',

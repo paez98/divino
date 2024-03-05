@@ -13,7 +13,6 @@ from Divino.components.logo import logo
 )
 def index() -> rx.Component:
     return rx.box(
-        logo(),
         navbar(),
         rx.vstack(
             about(),
